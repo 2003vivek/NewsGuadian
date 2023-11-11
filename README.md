@@ -38,9 +38,9 @@ This project leverages logistic regression, a powerful machine learning algorith
 
 ## Key Features
 
-*Logistic Regression Model: The core of this project utilizes logistic regression, a binary classification algorithm well-suited for discerning between real and fake news based on given features.
-*NLP and NLTK Integration: Natural Language Processing is employed to extract meaningful insights from textual content. The NLTK library, a comprehensive toolkit for NLP tasks, enhances the model's understanding of language nuances.
-*Accuracy and Reliability: The model is trained on a labeled dataset, honing its ability to make accurate predictions. Rigorous testing ensures the reliability of the predictions, making it a valuable tool for identifying misinformation.
+* Logistic Regression Model: The core of this project utilizes logistic regression, a binary classification algorithm well-suited for discerning between real and fake news based on given features.
+* NLP and NLTK Integration: Natural Language Processing is employed to extract meaningful insights from textual content. The NLTK library, a comprehensive toolkit for NLP tasks, enhances the model's understanding of language nuances.
+* Accuracy and Reliability: The model is trained on a labeled dataset, honing its ability to make accurate predictions. Rigorous testing ensures the reliability of the predictions, making it a valuable tool for identifying misinformation.
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -52,97 +52,21 @@ Run the prediction script: python predict_fake_news.py
 
 ### Dependencies
 
-Here, list all libraries, packages and other dependencies that need to be installed to run your project. Include library versions and how they should be installed if a special requirement is needed.
-
-For example, this is how you would list them:
-* Transformers 4.8.0
+* Scikit-learn library
   ```sh
-  conda install -c conda-forge transformers
+  pip install sklearn
   ```
-* OpenCV 4.5.2
+* Flask
   ```sh
-  conda install -c conda-forge opencv
+  pip install flask
   ```
-### Alternative: Export your Environment
-
-Alternatively, you can export your Python working environment, push it to your project's repository and allow users to clone it locally. This way, anyone can install it and they will have all dependencies needed. Here is how you export a copy of your Python environment:
-
+* nltk
   ```sh
-  conda env export > requirements.yml
+  pip install nltk
   ```
-
-The user will be able to recreate it using:
-
-  ```sh
-  conda env create -f requirements.yml
-  ```
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/catiaspsilva/README-template.git
-   ```
-2. Setup (and activate) your environment
-  ```sh
-  conda env create -f requirements.yml
-  ```
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. For course projects, include which file to execute and the format of any input variables.
-
-Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/catiaspsilva/README-template/issues) for a list of proposed features (and known issues).
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-<!-- Authors -->
-## Authors
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-You can acknowledge any individual, group, institution or service.
-* [Catia Silva](https://faculty.eng.ufl.edu/catia-silva/)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-
 ## Thank you
-
-<!-- If this is useful: [![Buy me a coffee](https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg)](https://www.buymeacoffee.com/catiaspsilva) -->
-
-
