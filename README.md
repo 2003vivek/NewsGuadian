@@ -66,5 +66,3 @@ Run the prediction script: python predict_fake_news.py
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-## Thank you
