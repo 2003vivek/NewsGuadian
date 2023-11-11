@@ -48,7 +48,7 @@ Install dependencies: pip install -r requirements.txt
 Run the prediction script: python predict_fake_news.py
 ```
 
-### Dependencies
+### Dependencies & Installations
 
 * Scikit-learn library
   ```sh
