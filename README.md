@@ -16,9 +16,6 @@ This is a machine Learning model on news prediction with complete interface of w
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -39,7 +36,7 @@ This is a machine Learning model on news prediction with complete interface of w
 
 This project leverages logistic regression, a powerful machine learning algorithm, to predict the authenticity of news articles—whether they are genuine or fake. Through the integration of Natural Language Processing (NLP) techniques, including the NLTK library, the model analyzes textual data to discern patterns and features indicative of misinformation.
 
-##Key Features:
+## Key Features
 
 *Logistic Regression Model: The core of this project utilizes logistic regression, a binary classification algorithm well-suited for discerning between real and fake news based on given features.
 *NLP and NLTK Integration: Natural Language Processing is employed to extract meaningful insights from textual content. The NLTK library, a comprehensive toolkit for NLP tasks, enhances the model's understanding of language nuances.
@@ -47,8 +44,11 @@ This project leverages logistic regression, a powerful machine learning algorith
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-In this section you should provide instructions on how to use this repository to recreate your project locally.
+``` bash
+Clone the repository: git clone https://github.com/2003vivek/NewsGuardian.git
+Install dependencies: pip install -r requirements.txt
+Run the prediction script: python predict_fake_news.py
+```
 
 ### Dependencies
 
